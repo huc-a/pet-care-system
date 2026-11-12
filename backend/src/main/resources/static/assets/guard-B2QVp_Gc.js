@@ -1,0 +1,1 @@
+import{E as r}from"./index-CI_209qE.js";const n=()=>!!localStorage.getItem("pet_token");function a(e,t){return n()?!0:(r.info("登录后即可继续，正在为你跳转登录页"),e.push({path:"/login",query:{redirect:t||e.currentRoute.value.fullPath}}),!1)}export{a as e,n as i};
